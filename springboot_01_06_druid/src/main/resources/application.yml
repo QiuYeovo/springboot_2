@@ -1,0 +1,17 @@
+
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/boot
+#    username: root
+#    password: 273014
+#    type: com.alibaba.druid.pool.DruidDataSource
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/boot
+      username: root
+      password: 273014
+
+

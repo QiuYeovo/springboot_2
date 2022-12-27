@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/boot
+    username: root
+    password: 273014
+
+
+#设置Mybatis plus相关配置
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tal_
